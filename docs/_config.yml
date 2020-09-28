@@ -1,1 +1,31 @@
+title: Rymoon's Website
+description: A humble website.
+email: rymoon42@outlook.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+excerpt_separator:  '<!-- more -->'
+# Build settings
+plugins:
+  - jekyll-feed
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 theme: jekyll-theme-cayman

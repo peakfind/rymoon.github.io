@@ -1,4 +1,10 @@
-Hello world!
+---
+layout: default
+title: Home
+---
 
-View the Draft here.
-<https://rymoon.github.io/Draft.htm>
+# ML2020-Autumn-NKU
+这里是机器学习课程的相关资料。
+
+<a href="/blog.html">Blog</a>列出了所有资料。
+<a href="/Lemon/">Lemon<a/>测试。
